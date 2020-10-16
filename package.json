@@ -1,0 +1,23 @@
+{
+  "name": "js-web-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint .",
+    "start": "webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "webpack-cli": "^4.0.0"
+  },
+  "dependencies": {
+    "webpack": "^5.1.2",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
